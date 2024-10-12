@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  background-color: white;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/037/924/non_2x/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+}
+.hidden {
+  display: none;
+}
+
+.container {
+  max-width: 800px;
+}
+.card {
+  background: transparent;
+  /* border: none; */
+}
+.card-body {
+  position: relative;
+  background: transparent;
+}
+.btn {
+  width: 80%;
+  max-width: 300px;
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 5px;
+  border: 2px solid #01aad5;
+  padding: 5px;
+  color: white;
+  background-color: #01aad5;
+}
+.btn:hover {
+  background-color: #007db7;
+  border-color: #007db7;
+}
+p,
+h1 {
+  text-align: center;
+}
+a.linksWantColor {
+  color: #007db7;
+  cursor: pointer;
+}
